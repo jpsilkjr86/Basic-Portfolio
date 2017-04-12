@@ -177,11 +177,11 @@ input#submit
 input#submit:hover
 {
 	opacity: .9;
-	cursor:pointer
+	cursor: pointer;
 }
 
 input#submit:active
 {
 	opacity: 1;
-	cursor:pointer
+	cursor: pointer;
 }
