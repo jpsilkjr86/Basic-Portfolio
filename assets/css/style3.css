@@ -69,7 +69,7 @@ img.contact:active
 img#profile
 {
 	float: left;
-	padding: 14px 15px 10px 0;
+	padding: 14px 20px 10px 0;
 }
 
 
@@ -138,4 +138,50 @@ img.portfolioLink:hover
 img.portfolioLink:active
 {
 	opacity: 1;
+}
+
+/*FOR contact.html ONLY*/
+label
+{
+	display: block;
+	padding: 8px 0px;
+}
+
+input, textarea
+{
+	border: 1px solid #cccccc;
+	width: 566px;
+	padding: 5px 10px;
+}
+
+input
+{
+	height: 20px;
+}
+
+textarea
+{
+	height: 180px;
+}
+
+input#submit
+{
+	background: #4aaaa5;
+	color: #ffffff;
+	width: 150px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+input#submit:hover
+{
+	opacity: .9;
+	cursor:pointer
+}
+
+input#submit:active
+{
+	opacity: 1;
+	cursor:pointer
 }
